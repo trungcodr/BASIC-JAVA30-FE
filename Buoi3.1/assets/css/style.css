@@ -1,0 +1,52 @@
+/* Reset Browser */
+*{
+    padding: 0; /*Khoang cach phan tu*/
+    margin: 0;  /*Khoang cach phan tu*/
+    box-sizing: border-box;
+}
+
+.title_1{
+    color: blue;
+}
+
+.title_2 {
+    color: orange;
+}
+
+#para_1 {
+    color: red;
+}
+
+#para_2{
+    color: violet;
+}
+
+div h3{
+    color: yellow;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:link{
+    color: rgb(181, 207, 32);
+}
+
+/*Padding/Margin*/
+.item-1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 30px;
+    padding: 30px 30px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.item-2{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    display: none;
+}
