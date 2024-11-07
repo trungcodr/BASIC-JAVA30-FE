@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 800px;
+    background-color: black;
+    /* Can giua man hinh bang margin  */
+    margin:auto;
+    display: flex;
+    /* flex-diection xac dinh huong cua phan tu con */
+    /* flex-direction: column; */
+    /* Can chinh kich thuoc phan tu */
+    flex-wrap: wrap;
+    /* justify-content can chinh vi tri phan tu theo hang */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* Can chinh vi tri theo hang, nhieu hang */
+
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* order: 2; */
+    /* flex-grow: 1; */
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color:blue;
+    /* order: 4; */
+    /* flex-grow: 1; */
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(214, 162, 17);
+    /* order: 3; */
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+}
+
+.box4{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(112, 229, 16);
+    /* order: 1; */
+    /* flex-grow: 1; */
+}
