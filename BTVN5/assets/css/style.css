@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0px;
+    padding: 0px;
+    
+} 
+.container{
+    display: flex;
+    max-width: 980px;
+    padding: 20px 0;
+    height: 536px;
+    margin:0 auto;
+    margin-top: 72px;
+}
+
+.left{
+    margin-right: 0px;
+    padding-right: 32px;
+    width: 580px;
+}
+
+.logo{
+    padding: 112px 0 16px;
+}
+
+.fb-logo-img{
+    width: 320px;
+    height: 106px;
+    margin: -28px;
+}
+
+.left h2{
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-size: px;
+    font-weight: normal;
+    line-height: 31px;
+    width: 501px;
+}
+
+.right{
+    vertical-align: top; 
+}
+
+.right-wrap{
+    height: 456px;
+    width: 396px;
+}
+
+.form{
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1),0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+.input-1{
+    margin: auto;
+    padding: 6px 0;
+}
+
+.input-1 .email{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    
+}
+
+.input-1 .password{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.form-button-login{
+    padding-top: 6px;
+}
+.log-in{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+}
+
+.reset-password{
+    margin-top: 16px;
+}
+
+.reset-password a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+    color: #0866ff;
+}
+
+.dash{
+    
+    border-bottom: 1px solid #dadde1;
+    
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.new-account{
+    padding-top: 6px;
+}
+
+.new-account-btn{
+    height: 48px;
+    border: none;
+    background-color: #42b72a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 16px;
+    border-radius: 6px;
+}
+
+.right-bottom{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-top: 28px;
+    font-size: 15px;
+    text-align: center;
+}
