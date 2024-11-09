@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* postion static */
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: static; /*Mac dinh cua browser*/
+}
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /*Ap dung cho ca 4 vi tri */
+    /*margin: 50px;*/
+    /* margin-top: 50px; */
+    /* margin: 50px 0 0 0 ; */
+
+    /* Doi xung bang nhau */
+    /* margin: 50px 0; */
+    position: relative;
+    /* top: 50px;
+    left: 50px; */
+}
+
+.wrap{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    /* z-index: 10; */
+}
+
+/* .box-4{
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    /* z-index: 1; */
+
+
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
+
+/* positon fixed */
+.box-5{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+
+}
+
+/* Menu */
+.top-bar{
+    width: 100%;
+    height: 30px;
+    background-color: chartreuse;
+    
+}
+
+.main-menu{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
